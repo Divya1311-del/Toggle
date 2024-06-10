@@ -1,0 +1,19 @@
+
+Backend System Routes
+The backend routes are defined in the routes folder or in specific files. Here some common routes are:
+
+Auth Routes (/auth):
+
+POST /auth/signup: Handles user registration.
+POST /auth/signin: Handles user login.
+POST /auth/logout: Handles user logout.
+GET /auth/me: Fetches the authenticated user's details.
+User Routes (/users):
+
+GET /users: Fetches a list of users.
+GET /users/:id: Fetches a user by ID.
+PUT /users/:id: Updates a user's details.
+DELETE /users/:id: Deletes a user.
+Other Routes:
+
+Depending on the application's functionality, there might be routes for handling posts (/posts), comments (/comments), files (/files), etc.
