@@ -1,0 +1,22 @@
+:root{
+  --background-color:white;
+  --text-color:black;
+  --form-bg:#eac8c8;
+}
+[data-theme='dark']{
+  --background-color:black;
+  --text-color:white;
+}
+body{
+  background-color:var(--background-color);
+  color:var(--text-color);
+}
+button{
+  height:40px;
+  width:100px;
+  padding-left:10px;
+  margin-left:550px;
+  margin-top:10px;
+  border-radius: 10px;
+  font-weight:bold;
+}
